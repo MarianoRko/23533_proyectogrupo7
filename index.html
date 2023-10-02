@@ -1,44 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/img/poster-icon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Recitales Argentina - Home</title>
 </head>
 
-<body>
+ <body>
     <header>
-    <div class="flex-container-header">
-        <div><img src="src/img/recitalarg-logo.png" alt="Logo Recital Arg" >
+        <div class="flex-container-header">
+            <div class="header-logo-container"> <a href="https://www.google.com"> <img id="imagen-logo" src="src/img/recitalarg-logo.png"  alt="Logo Recital Arg" ></a>
+            </div>
+            
+            <div class="header-search-container">
+                <form action="" class="search-bar-form">
+                    <input id="search-bar" type="text" placeholder="Busca tus recitales">
+                    <button type="submit"><img id="imagen-busca" src="src/img/buscar.png" alt="Buscar!"></button>
+                </form>          
+            </div>
+    
+            <div class="header-buttons-container">
+                <button class="button-header">Registro</button>
+                <button class="button-header">Iniciar Sesion</button>
+            </div>   
         </div>
-
-        <div><form method="post" target="_blank">
-            <p>
-              ¡Busca tu recital!: <input type="search" name="buscadorrecital" placeholder="Artista, Localidad, Género"><input type="submit" value="Buscar">
-            </p>
-            </form>
-        </div>
-
-        <div><button type="button" onclick="">Registro</button>
-        </div>
-
-        <div><button type="button" onclick="">Iniciar Sesión</button>
-        </div>
-    </div>
-
+    
     </header>
 
-<main>
+    <main class="main">
+            <section class="article2">
+            <h2 class="title-article2"> Recitales populares</h2>
+            <p></p>
 
-</main>
+            <div class="galery">
+                <div class="box-galery">
+                    <div class="box-img">
+                        <img src="#" alt="Imagen">
+                    </div>
+                </div>
+                <div class="box-galery">
+                    <div class="box-img">
+                        <img src="#" alt="Imagen">
+                    </div>
+                </div>
+                <div class="box-galery">
+                    <div class="box-img">
+                        <img src="#" alt="Imagen">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="footer">
+        footer
+    </footer>
 
-<footer>  
-    
-</footer>
-
-</body>
-
-</html>
+ </body>
+ </html>
