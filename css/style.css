@@ -130,7 +130,6 @@
 .title-article2 {
     font-size: 2em;
     color: #ffffff;
-   
 }
 .galery {
     height: 60vh;
@@ -161,3 +160,31 @@
     background-color: #90d4ff;
 }
 
+.listaFooterLeft{
+    margin: 0;
+    padding: 0;
+}
+
+.footerLeft{
+    display: inline-flex;
+    width: 40%;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.listaFooterRight{
+    margin: 0;
+    padding: 0;
+}
+
+.footerRight{
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.iconosredes {
+    width: 50%;
+    background-color: green;
+
+}
