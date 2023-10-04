@@ -7,6 +7,10 @@
 
 
 /*inicio de header*/    
+
+header {
+    position: sticky;top: 0;
+}
 .flex-container-header {
     display: flex;
     background-color: #90d4ff;
@@ -32,6 +36,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+
     }
 
 #imagen-busca {
@@ -161,8 +166,8 @@
 }
 
 .listaFooterLeft{
-    margin: 0;
-    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footerLeft{
@@ -184,7 +189,6 @@
 }
 
 .iconosredes {
-    width: 50%;
-    background-color: green;
+    margin-left: 20px;
 
 }
