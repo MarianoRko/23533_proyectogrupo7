@@ -85,22 +85,22 @@ header {
 .carousel {
     display: flex;
     overflow: hidden;
-    width: 100%; /* Ancho del carrusel */
+    width: 100%; 
     height: auto;
 }
 
 .slide {
-    width: 100%;/* Ancho del carrusel */
-    height: auto; /* Altura del carrusel */
+    width: 100%;
+    height: auto;
     margin-right: 10px;
 }
 
 .slide img {
+    float: left;
     width: 100%;
     height: 100%;
 }
 
-/* Agrega estilos de transición para suavizar los cambios */
 .slide {
     animation: slide 5s infinite;
 }
