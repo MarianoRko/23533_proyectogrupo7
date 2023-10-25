@@ -156,35 +156,74 @@
     align-items: center;
 }
 
+/*FOOTER*/ 
 .footer{
     background-color: #90d4ff;
+    justify-content: center;
+    font-family: 'Arial';
 }
 
-.listaFooterLeft{
-    margin: 0;
-    padding: 0;
-}
-
-.footerLeft{
+.footerLeftLogo{
     display: inline-flex;
-    width: 40%;
+    width: 50%;
     margin-bottom: 60px;
     margin-top: 10px;
+        
 }
 
-.listaFooterRight{
-    margin: 0;
-    padding: 0;
-}
-
-.footerRight{
-    text-align: center;
-    justify-content: center;
-    font-size: 0.8em;
-}
 
 .iconosredes {
-    width: 50%;
+    margin-right: 10%;
+    margin-top: 50px;
     background-color: green;
+    pointer-events: painted;
+}
+
+.footerCopyrigth{
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+/*WOS*/ 
+.article-wos{
+    font-size: 150%;
+    background-color:blue;
+    font-family: 'Arial';
 
 }
+
+.foto-wos{
+    padding: 20px;
+    background-color: orange;
+
+}
+
+.image {
+    flex: 1;
+    background-color: purple;
+}
+
+.info-wos{
+    text-align: center;
+    font-size: large;
+    background-color: yellow;
+}
+.biografia{
+    text-align:center;
+    font-size: large;
+    background-color: red;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: green;
+}
+
