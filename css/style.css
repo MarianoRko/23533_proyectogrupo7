@@ -2,46 +2,53 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 /*inicio de header*/    
-.flex-container-header {
+
+header {
+    position: sticky; top: 0;
+}
+
+.FlexContainerHeader {
     display: flex;
     background-color: #90d4ff;
     box-sizing: border-box;
     padding: 10px;
     height: 10%;
-    width: 100%;
+    width: 100vw;
  }
 
-.header-logo-container {
+.HeaderLogoContainer {
     display: flex;
     width: 20%;
     justify-content: center;
 }
 
-#imagen-logo {
+#ImagenLogo {
     width: 90%;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
-.header-search-container {
+.HeaderSearchContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    }
+}
 
-#imagen-busca {
+#ImagenBusca {
     justify-content: center;
     align-content: center;
     width: 20px;
     height: 22px;
 }
 
-.search-bar-form {
+.SearchBarForm {
     width: 80%;
     max-width: 700px;
     background: white;
@@ -51,22 +58,22 @@
     padding: 10px 20px;
 }
 
-#search-bar {
+#SearchBar {
     width: 100%;
     height: 60%;
     border-radius: 10px;
     border-color: transparent;
 }
 
-.header-buttons-container {
+.HeaderButtonsContainer {
     display: flex;
     width: 20%;
 
 }
  
-.button-header {
+.ButtonHeader {
     background-color:#dcfbff;
-    border: black;
+    border: 1px solid black;
     text-align: center;
     font-size: 18px;
     margin: 14px 10px;
@@ -74,88 +81,41 @@
     cursor: pointer;
     border-radius: 8px;
     height: 60%;
-    
     }
 
-.main {
-    background-color: #76777c;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
-/*inicio de article1*/    
-.article1 {
-    height: 50vh;
+/*Inicio Carrusel */
+
+
+.carousel {
+    margin: auto;
     width: 80%;
-    background-color: #dcfbff;
-    padding: 1em 4em;
-    margin: 2em;
+    overflow: hidden;
+    
+}
+
+.carousel ul {
     display: flex;
-    flex-direction: column;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+} 
+
+.carousel li {
+    background-color: grey;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    width: 100%;
+    list-style: none;
+    
 }
-.title-article1{
-    font-size: 4em;
-}
-.btn-article1{
-    background-color: #edd3d7;
-    text-decoration: none;
-    padding: 1em 4em;
-    color: #76777c;
-    font-size: 1em;
-    margin: 1em 0;
-    border-radius: 0.5em;
-}
-.btn-article:hover{
-    background-color: #edd3d7;
-    color: #0c0c0c;
-    transition: 0.5s;    
-}
-/*inicio de article2*/
-.article2 {
-    height: 100vh;
+
+.carousel img {
+    
+    height: 80%;
     width: 80%;
-    padding: 1em 4em;
-    margin: 1em;
-    background-color: #76777c;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-.title-article2 {
-    font-size: 2em;
-    color: #ffffff;
-}
-.galery {
-    height: 60vh;
-    width: 100%;
-    background-color: #dcfbff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-
-}
-.box-galery{
-    width: 30%;
-    height: 100%;
-    background-color: #e2e2e2;
-
-}
-.box.img{
-    width: 100%;
-    height: 50%;
-    background-color: #6e0c19;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
+<<<<<<< HEAD
 /*FOOTER*/ 
 .footer{
     background-color: #90d4ff;
@@ -227,3 +187,45 @@
     background-color: green;
 }
 
+=======
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    55% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}
+
+main section {
+    background-color: grey;
+    padding-bottom: 0px;
+    
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.IconosRedes {
+    display: flex;
+    justify-content: center;
+}
+
+#FooterCopyright {
+    color: white;
+    text-align: center;
+}
+
+footer section {
+    background-color: black;
+}
+>>>>>>> 2098de7be2577ba0696e46311a942c1bddd02c5e
