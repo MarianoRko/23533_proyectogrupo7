@@ -5,6 +5,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 /*inicio de header*/    
 
 header {
@@ -66,6 +68,7 @@ header {
 .HeaderButtonsContainer {
     display: flex;
     width: 20%;
+
 }
  
 .ButtonHeader {
@@ -77,45 +80,60 @@ header {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 8px;
-    height: 60%; 
-}
+    height: 60%;
+    }
 
+/*Inicio Carrusel */
 
 
 .carousel {
-    display: flex;
+    margin: auto;
+    width: 80%;
     overflow: hidden;
-    width: 100%; 
-    height: auto;
+    
 }
 
-.slide {
+.carousel ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+} 
+
+.carousel li {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: auto;
-    margin-right: 10px;
+    list-style: none;
+    
 }
 
-.slide img {
-    float: left;
-    width: 100%;
-    height: 100%;
+.carousel img {
+    
+    height: 80%;
+    width: 80%;
 }
 
-.slide {
-    animation: slide 5s infinite;
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    55% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
 }
 
-@keyframes slide {
-    0%, 100% {
-        opacity: 0;
-    }
-    10%, 90% {
-        opacity: 1;
-    }
-}
-
-footer {
-    background-color: black;
+main section {
+    background-color: grey;
+    padding-bottom: 0px;
+    
 }
 
 h3 {
@@ -124,20 +142,8 @@ h3 {
     padding-top: 5px;
 }
 
-.FooterLeft{
-    display: inline-flex;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-.FooterRight{
-    text-align: center;
-    font-size: 0.8em;
-}
-
 .IconosRedes {
+    display: flex;
     justify-content: center;
 }
 
@@ -146,3 +152,6 @@ h3 {
     text-align: center;
 }
 
+footer section {
+    background-color: black;
+}
