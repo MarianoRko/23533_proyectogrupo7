@@ -115,7 +115,6 @@ header {
     width: 80%;
 }
 
-<<<<<<< HEAD
 /*FOOTER*/ 
 .footer{
     background-color: #90d4ff;
@@ -187,7 +186,50 @@ header {
     background-color: green;
 }
 
-=======
+/*Ricardo*/
+
+.article-ricardo{
+    text-align:center;
+    font-size: 150%;
+    background-color:gray;
+    font-family: 'Arial';
+    justify-content: center;
+}
+
+.foto-ricardo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 70vh;
+    height: 80vh;
+    margin-left: 40px;
+}
+
+.info-ricardo {
+    text-align: center;
+    font-size: large;
+}
+
+.historia {
+    text-align:center;
+    font-size: large;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 @keyframes cambio {
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -228,4 +270,3 @@ h3 {
 footer section {
     background-color: black;
 }
->>>>>>> 2098de7be2577ba0696e46311a942c1bddd02c5e
