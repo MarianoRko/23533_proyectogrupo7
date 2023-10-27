@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/img/poster-icon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Recitales Argentina - KISS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Recitales Argentina - Kiss</title>
 </head>
 
 <body>
     <header>
         <nav>
             <div class="FlexContainerHeader">
-                <div class="HeaderLogoContainer"> <a href="https://www.google.com"> <img id="ImagenLogo" src="src/img/recitalarg-logo.png"  alt="Logo Recital Arg"></a>
+                <div class="HeaderLogoContainer"> <a href="https://www.google.com"> <img id="ImagenLogo" src="../src/img/recitalarg-logo.png"  alt="Logo Recital Arg"></a>
                 </div>
-                
+                   
                 <div class="HeaderSearchContainer">
                     <form action="" class="SearchBarForm">
                         <input id="SearchBar" type="text" placeholder="Busca tus recitales">
-                            <button type="submit"><img id="ImagenBusca" src="src/img/buscar.png" alt="Buscar!"></button>
+                            <button type="submit"><img id="ImagenBusca" src="../src/img/buscar.png" alt="Buscar!"></button>
                     </form>          
                 </div>
     
                 <div class="HeaderButtonsContainer">
                     <button class="ButtonHeader">Registro</button>
-                    <button class="ButtonHeader">Iniciar Sesion</button>
+                    <button class="ButtonHeader">Ingresar</button>
                 </div>   
             </div>
         </nav>
@@ -81,34 +82,35 @@
 
     <footer>
         <section>
-        <div class="IconosRedes">
+          <div class="IconosRedes">
             <h2 class="Centrar">Seguinos</h2>
-                <a href="https://www.facebook.com"><img src="src/img/icon-facebook.svg" alt="icon-facebook"></a>
-                <a href="https://www.youtube.com"><img src="src/img/icon-youtube.svg" alt="icon-youtube"></a>
-                <a href="https://www.instagram.com"><img src="src/img/icon-instagram.svg" alt="icon-instagram"></a> 
-        </div>
-        <div class="Contacto">
+                 <a href="https://www.facebook.com"><img src="../src/img/icon-facebook.svg" alt="icon-facebook"></a>
+                  <a href="https://www.youtube.com"><img src="../src/img/icon-youtube.svg" alt="icon-youtube"></a>
+                  <a href="https://www.instagram.com"><img src="../src/img/icon-instagram.svg" alt="icon-instagram"></a> 
+          </div>
+          <div class="Contacto">
             <h3 class="Centrar">Contactanos</h3>   
                 <button class="AbriteBoton" onclick="openForm()">Enviar consulta</button>
             </div>
-        <div class="form-popup" id="myForm">
+          <div class="form-popup" id="myForm">
             <form class="form-container">
-            <h3 class="Centrar">RecitalARG</h3>
+              <h3 class="Centrar">RecitalARG</h3>
 
-            <label for="text"><h3 class="Izquierdar">Email</h3></label>
-            <input type="email" placeholder="Ingresa tu mail" name="email" required>
+              <label for="text"><h3 class="Izquierdar">Email</h3></label>
+              <input type="email" placeholder="Ingresa tu mail" name="email" required>
 
-            <label for="text"><h3 class="Izquierdar">Escribe tu mensaje</label>
-            <input type="text">
+              <label for="text"><h3 class="Izquierdar">Escribe tu mensaje</label>
+              <input type="text">
 
-            <button type="submit" class="btn">Enviar</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+              <button type="submit" class="btn">Enviar</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
             </form>
-        </div>
+          </div>
 
                 <p id="FooterCopyright">Copyright 2023. All Rights Reserved RecitalArg - 7 GROUP</p>
             
         </section>             
     </footer>
+
 </body>
 </html>
