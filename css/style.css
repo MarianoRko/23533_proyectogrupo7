@@ -404,32 +404,36 @@
 
 /*WOS*/ 
 .article-wos{
-    font-size: 150%;
-    background-color:blue;
-    font-family: 'Arial';
+  text-align:center;
+  font-size: 150%;
+  font-family: 'Arial';
+  justify-content: center;
 
 }
 
 .foto-wos{
     padding: 20px;
-    background-color: orange;
-
+   
 }
 
 .image {
     flex: 1;
-    background-color: purple;
+}
+
+.image img {
+  width: 70vh;
+  height: 80vh;
+  margin-left: 40px;
 }
 
 .info-wos{
     text-align: center;
     font-size: large;
-    background-color: yellow;
 }
+
 .biografia{
     text-align:center;
     font-size: large;
-    background-color: red;
 }
 
 .map-container {
@@ -437,7 +441,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: green;
 }
 
 /*Ricardo*/
@@ -445,16 +448,12 @@
 .article-ricardo{
     text-align:center;
     font-size: 150%;
-    background-color:gray;
     font-family: 'Arial';
     justify-content: center;
 }
 
 .foto-ricardo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+  padding: 20px;
 }
 
 .image {
@@ -482,4 +481,84 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+/*Kiss*/
+
+.article-kisss{
+  text-align:center;
+  font-size: 150%;
+  font-family: 'Arial';
+  justify-content: center;
+}
+
+.foto-kiss {
+padding: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 70vh;
+  height: 80vh;
+  margin-left: 40px;
+}
+
+.info-kiss {
+  text-align: center;
+  font-size: large;
+}
+
+.historia {
+  text-align:center;
+  font-size: large;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/*Rolling*/
+
+.article-rolling{
+  text-align:center;
+  font-size: 150%;
+  font-family: 'Arial';
+  justify-content: center;
+}
+
+.foto-rolling {
+padding: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 70vh;
+  height: 80vh;
+  margin-left: 40px;
+}
+
+.info-rolling {
+  text-align: center;
+  font-size: large;
+}
+
+.historia {
+  text-align:center;
+  font-size: large;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
