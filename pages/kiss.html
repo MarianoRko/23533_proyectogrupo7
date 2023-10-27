@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/poster-icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Recitales Argentina - KISS</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="FlexContainerHeader">
+                <div class="HeaderLogoContainer"> <a href="https://www.google.com"> <img id="ImagenLogo" src="src/img/recitalarg-logo.png"  alt="Logo Recital Arg"></a>
+                </div>
+                
+                <div class="HeaderSearchContainer">
+                    <form action="" class="SearchBarForm">
+                        <input id="SearchBar" type="text" placeholder="Busca tus recitales">
+                            <button type="submit"><img id="ImagenBusca" src="src/img/buscar.png" alt="Buscar!"></button>
+                    </form>          
+                </div>
+    
+                <div class="HeaderButtonsContainer">
+                    <button class="ButtonHeader">Registro</button>
+                    <button class="ButtonHeader">Iniciar Sesion</button>
+                </div>   
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <section class="article-artista">
+            <h2 class="title-artista"> KISS</h2>
+        
+            <article class="foto-artista">
+                <div class="image">
+                    <img src="src/img/foto-kiss.jpg" alt="FKiss">
+                </div>
+            </article>   
+        
+            <div class="info-artista">
+                <h3>Información General</h3>
+                <article class="lista-info-artista">
+                    <ul>Lugar: Roger Place</ul>
+                    <ul>Dirección: 10220 104 Ave NW, Edmonton, AB T5J 0H6, Canadá</ul>
+                    <ul>Fecha: 2023-11-10</ul>
+                    <ul>Hora: 8:30PM</ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="biografia">
+                <h3>Biografía</h3>
+                <p>
+                Kiss es una banda estadounidense de rock formada en Nueva York en enero de 1973 por el bajista Gene Simmons, el guitarrista Paul Stanley, el batería Peter Criss y el guitarrista Ace Frehley.
+                Conocidos por su maquillaje facial y su extravagante vestuario, el grupo se dio a conocer al público a mediados de los años 1970 gracias a sus actuaciones en directo, en las que incluían pirotecnia, llamaradas, cañones, baterías elevadoras, guitarras con humo y sangre falsa. 
+                Kiss ha conseguido treinta discos de oro de la RIAA y es la banda estadounidense que ha recibido un mayor número de estas certificaciones.
+                </p>
+                <p>
+                El conjunto ha vendido más de 100 millones de álbumes en todo el mundo y no te podés perder verlos en vivo!
+                </p>
+        </section>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.6043325258024!2d-113.5003753241198!3d53.54697865969375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0224eb8052c15%3A0x3fec58e4ace8d4d8!2sRogers%20Place!5e0!3m2!1ses-419!2sar!4v1698370486046!5m2!1ses-419!2sar" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+        
+
+    </main>
+
+    <footer>
+        <section>
+        <div class="IconosRedes">
+            <h2 class="Centrar">Seguinos</h2>
+                <a href="https://www.facebook.com"><img src="src/img/icon-facebook.svg" alt="icon-facebook"></a>
+                <a href="https://www.youtube.com"><img src="src/img/icon-youtube.svg" alt="icon-youtube"></a>
+                <a href="https://www.instagram.com"><img src="src/img/icon-instagram.svg" alt="icon-instagram"></a> 
+        </div>
+        <div class="Contacto">
+            <h3 class="Centrar">Contactanos</h3>   
+                <button class="AbriteBoton" onclick="openForm()">Enviar consulta</button>
+            </div>
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+            <h3 class="Centrar">RecitalARG</h3>
+
+            <label for="text"><h3 class="Izquierdar">Email</h3></label>
+            <input type="email" placeholder="Ingresa tu mail" name="email" required>
+
+            <label for="text"><h3 class="Izquierdar">Escribe tu mensaje</label>
+            <input type="text">
+
+            <button type="submit" class="btn">Enviar</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+            </form>
+        </div>
+
+                <p id="FooterCopyright">Copyright 2023. All Rights Reserved RecitalArg - 7 GROUP</p>
+            
+        </section>             
+    </footer>
+</body>
+</html>
