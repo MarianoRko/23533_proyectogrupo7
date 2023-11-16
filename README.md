@@ -1,2 +1,3 @@
-# 23533_proyectogrupo7
-Proyecto del grupo 7 de la comision 23533 Full Stack Python
+# 23533_proyectofinalgrupo7
+
+Proyecto final del grupo 7 de la comision 23533 Full Stack Python
